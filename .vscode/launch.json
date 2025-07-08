@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch InventorySystem",
+      "request": "launch",
+      "mainClass": "InventorySystem.Main",
+      "projectName": "InventorySystem",
+      "vmArgs": "--module-path lib/javafx-sdk-24/lib --add-modules javafx.controls,javafx.fxml -cp lib/sqlite-jdbc.jar;lib/itext-2.1.7.jar"
+    }
+  ]
+}
